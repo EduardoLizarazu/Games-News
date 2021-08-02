@@ -13,14 +13,14 @@ html {
   width: 100%;
   height: 150px;
 }
-.intro__imagen {
+.intro__img {
   position: absolute;
   width: 100%;
 }
-.intro__imagen img {
+.intro__img img {
   width: 100%;
 }
-.intro__contenido {
+.intro__contents {
   position: relative;
   text-align: center;
   padding: 30px;
@@ -28,23 +28,23 @@ html {
   text-transform: uppercase;
   color: #FFF;
 }
-.intro__autor {
+.intro__author {
   position: relative;
   top: 10px;
   left: calc(50% - 74px);
   text-transform: uppercase;
   color: #FFF;
 }
-.intro__autor img {
+.intro__author img {
   width: 50px;
   border-radius: 50%;
 }
-.intro__autor-titulo {
+.intro__author-title {
   position: relative;
   top: -30px;
   left: 10px;
 }
-.intro__autor-nombre {
+.intro__author-name {
   position: relative;
   top: -15px;
   left: -25px;
