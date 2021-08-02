@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+.intro {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.intro__imagen {
+  position: absolute;
+  width: 100%;
+}
+.intro__imagen img {
+  width: 100%;
+}
+.intro__contenido {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.intro__autor {
+  position: relative;
+  top: 10px;
+  left: calc(50% - 74px);
+  text-transform: uppercase;
+  color: #FFF;
+}
+.intro__autor img {
+  width: 50px;
+  border-radius: 50%;
+}
+.intro__autor-titulo {
+  position: relative;
+  top: -30px;
+  left: 10px;
+}
+.intro__autor-nombre {
+  position: relative;
+  top: -15px;
+  left: -25px;
+}
