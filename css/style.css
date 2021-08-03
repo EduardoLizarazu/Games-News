@@ -149,3 +149,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
 }
+@media (min-width: 530px) {
+  .first-article {
+    padding-top: 100px;
+  }
+}
