@@ -11,15 +11,18 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        z-index: -1;
+        z-index: 10;
     }
     &__contents {
+        position: relative;
         padding: 20px;
         padding-top: 80px;
         text-align: center;
         text-transform: uppercase;
         color: @absolute-white;
+        z-index: 10;
         .intro__category {
+            font-size: 1.4rem;
             color: fade(@absolute-white, 50%);
             .Oswald();
         }
@@ -31,6 +34,7 @@
         }
     }
     &__author {
+        position: relative;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -38,6 +42,7 @@
         padding: 30px;
         text-align: center;
         color: @absolute-white;
+        z-index: 10;
         img {
             width: 35px;
             border-radius: 50%;
