@@ -1,0 +1,37 @@
+.box--container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    color: @absolute-white;
+    .box {
+        background: @second-background;
+        &__img {
+            margin: 25px 0;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__contents {
+            padding: 15px;
+            padding-top: 0;
+            h3 {
+                padding-bottom: 15px;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                .Oswald()
+            }
+            p {
+                padding-bottom: 15px;
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+            a {
+                padding-bottom: 15px;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                .Oswald()
+            }
+        }
+    }
+}

@@ -92,6 +92,7 @@ body {
 .first-article_intro--middle {
   margin-bottom: 20px;
   font-size: 2rem;
+  color: #8841da;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -101,6 +102,49 @@ body {
   margin: 40px 0;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: #8841da;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.box--container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+  color: #FFF;
+}
+.box--container .box {
+  background: #572364;
+}
+.box--container .box__img {
+  margin: 25px 0;
+}
+.box--container .box__img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box--container .box__contents {
+  padding: 15px;
+  padding-top: 0;
+}
+.box--container .box__contents h3 {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.box--container .box__contents p {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.box--container .box__contents a {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
